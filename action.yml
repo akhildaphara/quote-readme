@@ -1,5 +1,5 @@
-name: "Quote - README"
-author: Siddharth Chandra
+name: "Add Quotes or facts to README"
+author: akhildaphara
 description: "Update a section with random quote/fun-fact on your Readme"
 
 inputs:
@@ -10,7 +10,7 @@ inputs:
 
   REPOSITORY:
     description: "Your GitHub repository"
-    default: ${{ github.repository }}
+    default: akhildaphara/quote-readme
     required: false
 
   OPTION:
