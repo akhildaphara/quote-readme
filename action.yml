@@ -10,7 +10,7 @@ inputs:
 
   REPOSITORY:
     description: "Your GitHub repository"
-    default: akhildaphara/quote-readme
+    default: ${{ github.repository }}
     required: false
 
   OPTION:
